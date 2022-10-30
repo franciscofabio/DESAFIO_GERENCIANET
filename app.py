@@ -10,7 +10,7 @@ mdl = jb.load("my_rf_pycaret_model.pkl")
 
 @app.route('/', methods=['GET'])
 def result():
-    account = request.args.get('account')
+    account = request.args.get('account_number')
 
     """with open("data.json") as f:
         data = json.load(f)"""
