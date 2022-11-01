@@ -26,9 +26,14 @@ def result():
     city = df['city'].values[0]
     paid = df['paid'].values[0]
     unpaid = df['unpaid'].values[0]
+    birth_year = df['birth_year'].values[0]
+    age_creation = df['age_creation'].values[0]
 
-    input = pd.DataFrame({'account_number': conta, 'occupation': occupation,
-                         'state': state, 'city': city, 'paid': paid, 'unpaid': unpaid}, index=[0])
+    input = pd.DataFrame({'account_number': conta,
+                          'occupation': occupation, 'state': state,
+                          'city': city, 'paid': paid, 'unpaid': unpaid,
+                          'birth_year': birth_year, 'age_creation': age_creation
+                          }, index=[0])
 
     pred = int(mdl.predict(input)[0])
 
