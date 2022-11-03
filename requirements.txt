@@ -6,4 +6,3 @@ Werkzeug
 pandas
 joblib
 setuptools==45
-pkg-resources
