@@ -5,6 +5,5 @@ MarkupSafe
 Werkzeug
 pandas
 joblib
-os
 setuptools==45
 pkg-resources
