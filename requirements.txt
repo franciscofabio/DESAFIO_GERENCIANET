@@ -2,6 +2,7 @@ Flask
 Jinja2
 MarkupSafe
 Werkzeug
+gunicorn
 pandas
 joblib
 setuptools==45
