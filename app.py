@@ -3,6 +3,7 @@ import pandas as pd
 import joblib as jb
 import json
 import os
+import setuptools
 
 app = Flask(__name__)
 
