@@ -9,5 +9,5 @@ pandas
 joblib
 json
 os
-setuptools
+setuptools==45
 pkg-resources
