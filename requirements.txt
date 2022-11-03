@@ -1,8 +1,6 @@
 Flask
-Jinja2
-MarkupSafe
-Werkzeug
-gunicorn
+Flask-Cors
 pandas
 joblib
+requests
 setuptools==45
