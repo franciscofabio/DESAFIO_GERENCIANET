@@ -9,3 +9,4 @@ joblib
 json
 os
 setuptools
+pip==21.3.1
